@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.cardShowCards {
+  height: 400px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verticalCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.horizontalCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.innerBoxOfCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outBoxOfCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.playerCard {
+  height: 80px;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #17192e;
+  border-radius: 7px;
+  margin: 5px;
+  background: #191a23;
+  margin: 10px;
+}
+
+.options {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  height: 80px;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #17192e;
+  border-radius: 7px;
+  margin: 5px;
+  background: #191a23;
+  margin: 10px;
+}
